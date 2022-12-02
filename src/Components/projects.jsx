@@ -393,7 +393,7 @@ a:hover:after{
                 <div className="project-image">
                         <a href="##">
                             <div className="img">
-                            <img src={"https://brittanychiang.com/static/3b4d6e8f44baf7e6d7a0ed4b3e4d8d39/d2194/halcyon.png"} alt="" width={700} height={438}sizes="(min-width: 700px) 700px, 100vw" />
+                            <img src={img} alt="" width={700} height={438}sizes="(min-width: 700px) 700px, 100vw" />
 
                                     <div className="img2">
                                     </div>
