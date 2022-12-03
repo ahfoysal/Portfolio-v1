@@ -21,7 +21,7 @@ const Projects = () => {
     margin: 10px 0px 40px;
     width: 100%;
     font-size: clamp(26px,5vw,var(--fz-heading));
-    white-space: nowrap;
+    white-space: wrap;
 }
 .type:nth-of-type(2n+1)  .project-tech-list {
     display: flex;
@@ -393,7 +393,7 @@ a:hover:after{
                 <div className="project-image">
                         <a href="##">
                             <div className="img">
-                            <img src={img} alt="" width={700} height={438}sizes="(min-width: 700px) 700px, 100vw" />
+                            <img src={ecom} alt="" width={700} height={438}sizes="(min-width: 700px) 700px, 100vw" />
 
                                     <div className="img2">
                                     </div>

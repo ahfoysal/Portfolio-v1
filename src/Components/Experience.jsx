@@ -199,7 +199,7 @@ a:hover:after{
 }
   @media (max-width: 768px){
   .tittles{
-    flex-flow: row nowrap !important;
+    flex-flow: row wrap !important;
     display: flex;
     overflow-x: auto;
     width: calc(100% + 100px);
