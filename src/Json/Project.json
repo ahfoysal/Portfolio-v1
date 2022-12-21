@@ -1,0 +1,39 @@
+[
+{"isFeatured":true,
+"title":"Complete E-commerce Site",
+"details":"  Full funcional  e-commerce project. t will consist of almost every features an ecommerce website is supposed to pose. Example: inventory system , orders track , and <a href='https://wordpress.com/'> wordpress </a> powerfull backend. It has every possible features. ",
+"technologies": ["React","Wocommerce-api","Redux", "FireBase","Styled Components", "Firestore"],
+"githubLink": false, 
+"link": "https://shop-api-beta.vercel.app/",
+"img": "https://pewdss.vercel.app/static/media/e-com.e0a2d2c28db0dad24702.png"
+},
+{"isFeatured":true,
+"title":"Anime Streaming Site ",
+"details":"You Can Watch Every anime here without any ads. Has some fetures like download, continue watch , watch list and many more.",
+"technologies": ["React","Redux", "FireBase","Styled Components", "Firestore"],
+"githubLink": false, 
+"link": "https://pewds.vercel.app/",
+"img": "https://i.ibb.co/Qd2xtvq/image.png"
+}
+,
+{"isFeatured":true,
+"title":"10 Minute School Clone",
+"details":"I tried to make 10min school clone for fun and test my skill.",
+"technologies": ["React","Yt Embed"],
+"githubLink": false, 
+"link": "https://9-11school.vercel.app/",
+"img": "https://i.ibb.co/31Tvvrb/image.png"
+},
+{"isFeatured":true,
+"title":"A multi Purpose Discord Bot",
+"details":"Just tried to made a dc bot using Discord Js , Also have  dashboard made with React.",
+"technologies": ["Discord Js","React"],
+"githubLink": false, 
+"link": "##",
+"img": "https://i.ibb.co/4gpHSSP/image.png"
+}
+]
+
+
+
+

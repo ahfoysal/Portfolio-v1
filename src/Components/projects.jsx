@@ -1,10 +1,10 @@
 
 
-import React from 'react'
+import React, { useEffect } from 'react'
 import styled from 'styled-components'
 import { IoMdOpen } from  'react-icons/io'
 import { FiGithub } from 'react-icons/fi';
-import ecom from '../Image/e-com.png' 
+import data from '../Json/Project.json';
 
 
 
@@ -363,112 +363,55 @@ a:hover:after{
 }
 }
     `
+        useEffect(() => {
+ console.log(data)
+    
+        }, [])
   return (
     <Wrapper>
                <h2 className='num-heading'> Some Things I’ve Built</h2>
         <ul className='projectss'>
-            <li className="type">
+            {data.map((pr) =>{
+                return <li className="type">
                 <div className="project-content">
-                    <div>
-                            <p className="project-overline">Featured Project</p>
-                            <h3 className="project-title"><a href="##">Tittle Here</a></h3>
-                            <div className="project-description">
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicinctetsam aliquid autem porro harum ducimus veniam? 
-                                    Autem cum impedit voluptate. Omnis. <a href="##">Details</a> in <a href="##">Html</a>.</p>
-                            </div>
-                           
-                            <ul className="project-tech-list">
-                                    <li>Used</li>
-                                    <li>Technologies</li>
-                                    
-                            </ul>
-                            <div className="project-links">
+                        <div>
+                               {pr?.isFeatured === true && <p className="project-overline">Featured Project</p>}
+                                <h3 className="project-title"><a href={pr.link}>{pr.title}</a></h3>
+                                <div className="project-description">
+                                    <p dangerouslySetInnerHTML={{ __html: pr?.details }}></p>
+                                </div>
+                               
+                                <ul className="project-tech-list">
+                                    {pr.technologies.map((tech) =>{
+                                        return <li>{tech}</li>
+                                    })}
+                                       
+                                        
+                                </ul>
+                                <div className="project-links">
+    
+                                  {pr.githubLink === false &&  <a href={'##'} onClick={() => alert('Source Code Private')}><FiGithub className='social-icon'/></a>}
+                                  {pr.githubLink === true &&  <a href={pr?.gitLink}><FiGithub className='social-icon'/></a>}
 
-                                <a href="##"><FiGithub className='social-icon'/></a>
-                                <a href="##"><IoMdOpen className='social-icon'/></a>
-                            </div>
-
+                                    <a href={pr.link}><IoMdOpen className='social-icon'/></a>
+                                </div>
+    
+                        </div>
                     </div>
-                </div>
-                <div className="project-image">
-                        <a href="##">
-                            <div className="img">
-                            <img src={ecom} alt="" width={700} height={438}sizes="(min-width: 700px) 700px, 100vw" />
-
-                                    <div className="img2">
-                                    </div>
-                            </div>
-                        </a>
-                </div>
-            </li>
-            <li className="type">
-                <div className="project-content">
-                    <div>
-                            <p className="project-overline">Featured Project</p>
-                            <h3 className="project-title"><a href="##">Tittle Here</a></h3>
-                            <div className="project-description">
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicinctetsam aliquid autem porro harum ducimus veniam? 
-                                    Autem cum impedit voluptate. Omnis. <a href="##">Details</a> in <a href="##">Html</a>.</p>
-                            </div>
-                           
-                            <ul className="project-tech-list">
-                                    <li>Used</li>
-                                    <li>Technologies</li>
-                                    
-                            </ul>
-                            <div className="project-links">
-
-                                <a href="##"><FiGithub className='social-icon'/></a>
-                                <a href="##"><IoMdOpen className='social-icon'/></a>
-                            </div>
-
+                    <div className="project-image">
+                            <a href={pr?.link}>
+                                <div className="img">
+                                <img src={pr.img} alt="" width={700} height={438}sizes="(min-width: 700px) 700px, 100vw" />
+    
+                                  
+                                </div>
+                            </a>
                     </div>
-                </div>
-                <div className="project-image">
-                        <a href="##">
-                            <div className="img">
-                            <img src={ecom} alt="" width={700} height={438}sizes="(min-width: 700px) 700px, 100vw" />
-
-                                    <div className="img2">
-                                    </div>
-                            </div>
-                        </a>
-                </div>
-            </li>
-            <li className="type">
-                <div className="project-content">
-                    <div>
-                            <p className="project-overline">Featured Project</p>
-                            <h3 className="project-title"><a href="##">Tittle Here</a></h3>
-                            <div className="project-description">
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicinctetsam aliquid autem porro harum ducimus veniam? 
-                                    Autem cum impedit voluptate. Omnis. <a href="##">Details</a> in <a href="##">Html</a>.</p>
-                            </div>
-                           
-                            <ul className="project-tech-list">
-                                    <li>Used</li>
-                                    <li>Technologies</li>
-                                    
-                            </ul>
-                            <div className="project-links">
-
-                                <a href="##"><FiGithub className='social-icon'/></a>
-                                <a href="##"><IoMdOpen className='social-icon'/></a>
-                            </div>
-
-                    </div>
-                </div>
-                <div className="project-image">
-                        <a href="##">
-                            <div className="img">
-                            <img src={ecom} alt="" width={700} height={438}sizes="(min-width: 700px) 700px, 100vw" />
-
-                                    <div className="img2">
-                                    </div>
-                            </div>
-                        </a>
-                </div>
-            </li>
+                </li>
+            })}
+            
+           
+           
 
         </ul>
        
