@@ -4,10 +4,10 @@
 "details":"  Full funcional  e-commerce project. t will consist of almost every features an ecommerce website is supposed to pose. Example: inventory system , orders track , and <a href='https://wordpress.com/'> wordpress </a> powerfull backend. It has every possible features. ",
 "technologies": ["React","Wocommerce-api","Redux", "FireBase","Styled Components", "Firestore"],
 "githubLink": false, 
-"link": "https://shop-api-beta.vercel.app/",
+"link": "http://pewds-shop.vercel.app",
 "img": "https://pewdss.vercel.app/static/media/e-com.e0a2d2c28db0dad24702.png"
 },
-{"isFeatured":true,
+{"":true,
 "title":"Anime Streaming Site ",
 "details":"You Can Watch Every anime here without any ads. Has some fetures like download, continue watch , watch list and many more.",
 "technologies": ["React","Redux", "FireBase","Styled Components", "Firestore"],
