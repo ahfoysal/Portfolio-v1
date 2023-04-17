@@ -64,9 +64,9 @@ const Contact = () => {
     <Wrapper>
         <h2 className='overline'>What’s Next?</h2>
         <h2 className="title">Get In Touch</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt eveniet, perspiciatis sint odit aspernatur 
-            delectus quos a illo deleniti non quia.</p>
-            <a href="##" className='email-link'>Say Hello</a>
+        {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt eveniet, perspiciatis sint odit aspernatur 
+            delectus quos a illo deleniti non quia.</p> */}
+            <a href="/Resume.pdf" className='email-link'>Say Hello</a>
         
     </Wrapper>
   )

@@ -91,19 +91,17 @@ a:hover:after{
                 <h1> Hi, My name is            </h1>
             </div>
             <div>
-                <h2 className='big-heading'>Ah Foysal</h2>
+                <h2 className='big-heading'>{process.env.REACT_APP_NAME}</h2>
             </div>
-            <div>
+            {/* <div>
                 <h3 className="big-heading2"> The only thing I Love is Coding.</h3>
-            </div>
+            </div> */}
             <div>
-                <p>Im a .................<br />
-                ......................................... <br />
-                   ................................ Find me  <a href="##">here</a>.
+                <p>{process.env.REACT_APP_META_ABOUT_INFO}
                 </p>
             </div>
             <div>
-                <a href="##" className="cv-link">Download My Resume</a>
+                <a href="/Resume.pdf" className="cv-link">Download My Resume</a>
             </div>
     </Wrapper>
   )

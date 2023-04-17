@@ -164,18 +164,9 @@ const About = () => {
         <div className="inner">
             <div className="about-info">
                 <div>
-                    <p>Hello...."Lorem ipsum dolor sit amet, consectetur
-                         adipiscing elit, sed do eiusmod tempor incididunt ut
-                          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostru
-                          d exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."" 
-                          </p>
-                          <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
-                          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                           nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate 
-                           velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
-                          </p>
+                    <p>
+                    {process.env.REACT_APP_ABOUT_ME}
+                   </p>
                           <p>Here are a few technologies I’ve been working with recently:</p>
                             <ul className='skills-list'>
                                {data.map((name) =>( <li key={name.name}>{name.name}</li> ))}
