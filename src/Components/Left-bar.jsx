@@ -74,10 +74,10 @@ li:last-of-type {
       <Wrapper>
         <div className="left-bar" orientation='left'>
             <ul className='social-icons'>
-                <li> <a href="##"> <FiGithub  className='social-icon'/> </a> </li>
-                <li> <a href="##"> <FiInstagram  className='social-icon'/> </a> </li>
-                <li> <a href="##"> <FiFacebook  className='social-icon'/> </a> </li>
-                <li> <a href="##"> <FaWhatsapp  className='social-icon'/> </a> </li>
+                <li> <a href="https://github.com/hosan30"> <FiGithub  className='social-icon'/> </a> </li>
+                <li> <a href="https://www.instagram.com/pewwdsss_/"> <FiInstagram  className='social-icon'/> </a> </li>
+                <li> <a href="https://www.facebook.com/hosan19/"> <FiFacebook  className='social-icon'/> </a> </li>
+                <li> <a href="https://wa.me/8801861389963"> <FaWhatsapp  className='social-icon'/> </a> </li>
 
 
             </ul>

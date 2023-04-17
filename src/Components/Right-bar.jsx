@@ -63,7 +63,7 @@ const RightBar = () => {
     <div>
       <Wrapper>
         <div className="right-bar" orientation='right'>
-            <div className="emailX"><a href="##">ahfoysal30@gmail.com </a></div>
+            <div className="emailX"><a href="mailto:ahfoysal30@gmail.com">ahfoysal30@gmail.com </a></div>
          
 
         </div>
