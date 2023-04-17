@@ -61,7 +61,7 @@ const Contact = () => {
 
     `
   return (
-    <Wrapper>
+    <Wrapper id='contact'>
         <h2 className='overline'>What’s Next?</h2>
         <h2 className="title">Get In Touch</h2>
         {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt eveniet, perspiciatis sint odit aspernatur 

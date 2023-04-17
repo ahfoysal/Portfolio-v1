@@ -234,7 +234,7 @@ a:hover:after{
 }
 .project-image .img {
     border-radius: var(--border-radius);
-    mix-blend-mode: multiply;
+    /* mix-blend-mode: multiply; */
     width: 100%;
     max-width: 100%;
     vertical-align: middle;
@@ -368,7 +368,7 @@ a:hover:after{
     
         }, [])
   return (
-    <Wrapper>
+    <Wrapper id='projects'>
                <h2 className='num-heading'> Some Things I’ve Built</h2>
         <ul className='projectss'>
             {data.map((pr) =>{

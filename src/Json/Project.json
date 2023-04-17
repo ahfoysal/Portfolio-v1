@@ -5,7 +5,7 @@
 "technologies": ["React","Wocommerce-api","Redux", "FireBase","Styled Components", "Firestore"],
 "githubLink": false, 
 "link": "http://pewds-shop.vercel.app",
-"img": "https://pewdss.vercel.app/static/media/e-com.e0a2d2c28db0dad24702.png"
+"img": "/e-com.png"
 },
 {"":true,
 "title":"Anime Streaming Site ",

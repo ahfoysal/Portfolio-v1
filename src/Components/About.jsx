@@ -103,10 +103,10 @@ const About = () => {
 }
 .wrapper .img {
     position: relative;
-    border-radius: var(--border-radius);
+    /* border-radius: var(--border-radius);
     mix-blend-mode: multiply;
     filter: grayscale(100%) contrast(1);
-    transition: var(--transition);
+    transition: var(--transition); */
 }
 .div img {
     bottom: 0;
@@ -159,7 +159,7 @@ const About = () => {
     `
     
   return (
-    <Wrapper>
+    <Wrapper id='about'>
         <h2 className='num-heading'> About Me</h2>
         <div className="inner">
             <div className="about-info">

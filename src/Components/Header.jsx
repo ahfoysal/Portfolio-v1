@@ -189,13 +189,13 @@ a span:hover, a span:focus {
                     <div className="header-items">
                         <ol className='order-list'>
                     <a href="#about">    <li>  <span>About</span></li></a>
-                    <a href="#about">    <li>  <span>Experience</span></li></a>
-                    <a href="#about">    <li>  <span>Projects</span></li></a>
-                    <a href="#about">    <li>  <span>Contact</span></li></a>
+                    <a href="#experience">    <li>  <span>Experience</span></li></a>
+                    <a href="#projects">    <li>  <span>Projects</span></li></a>
+                    <a href="#contact">    <li>  <span>Contact</span></li></a>
                         
                         </ol>
                         <div className="button"  style={{ transitionDelay: '4000' }}>
-                            <a href="#download" className='resume-button'>Resume</a>
+                            <a href="/Resume.pdf" className='resume-button'>Resume</a>
                         </div>
 
                     </div>
