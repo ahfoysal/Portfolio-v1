@@ -195,7 +195,7 @@ a span:hover, a span:focus {
                         
                         </ol>
                         <div className="button"  style={{ transitionDelay: '4000' }}>
-                            <a href="/Resume.pdf" className='resume-button'>Resume</a>
+                            <a href="/Resume.pdf"  download className='resume-button'>Resume</a>
                         </div>
 
                     </div>
