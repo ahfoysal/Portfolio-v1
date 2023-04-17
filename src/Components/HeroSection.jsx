@@ -101,7 +101,7 @@ a:hover:after{
                 </p>
             </div>
             <div>
-                <a href="/Resume.pdf" className="cv-link">Download My Resume</a>
+                <a href="/Resume.pdf" download className="cv-link">Download My Resume</a>
             </div>
     </Wrapper>
   )
