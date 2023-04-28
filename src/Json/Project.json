@@ -1,21 +1,29 @@
 [
-{"isFeatured":true,
-"title":"Complete E-commerce Site",
-"details":"  Full funcional  e-commerce project. t will consist of almost every features an ecommerce website is supposed to pose. Example: inventory system , orders track , and <a href='https://wordpress.com/'> wordpress </a> powerfull backend. It has every possible features. ",
-"technologies": ["React","Wocommerce-api","Redux", "FireBase","Styled Components", "Firestore"],
+    {"isFeatured":true,
+"title":"E-commerce Site With Next.js",
+"details":"Fully functional e-commerce project in Next.js with server-side rendering ",
+"technologies": ["Next","React","Wocommerce-api", "wordpress-rest-api"],
 "githubLink": false, 
-"link": "http://pewds-shop.vercel.app",
-"img": "/e-com.png"
+"link": "http://shop.pewds.vercel.app",
+"img": "https://i.ibb.co/wskJBCq/image.png"
 },
+
 {"":true,
-"title":"Anime Streaming Site ",
-"details":"You Can Watch Every anime here without any ads. Has some fetures like download, continue watch , watch list and many more.",
-"technologies": ["React","Redux", "FireBase","Styled Components", "Firestore"],
+"title":"Movie &  Anime Streaming Site ",
+"details":"You Can Watch Every movie , tv show & anime here without any ads. Has some fetures like download, continue watch , watch list and many more.",
+"technologies": ["React","Redux", "FireBase","plyr"],
 "githubLink": false, 
 "link": "https://pewds.vercel.app/",
 "img": "https://i.ibb.co/SKR3qHq/image.png"
 },
-
+{"isFeatured":true,
+"title":"Node Js APi Library",
+"details":"A Node.js library provides APIs for accessing data from various websites, like Daraz, Bikroy.com, Foodpanda, Prothom Alo, as well as streaming links for movies, TV shows, and anime, and so on.",
+"technologies": ["Node JS","Express JS", "node-cache"],
+"githubLink": false, 
+"link": "https://docs.pewds.vercel.app/",
+"img": "https://i.ibb.co/3S4RqDD/image.png"
+},
 {"isFeatured":true,
 "title":"Bus Routes of Dhaka",
 "details":"Easily get routes of buses.",
@@ -23,6 +31,14 @@
 "githubLink": false, 
 "link": "https://busroute.vercel.app/",
 "img": "https://i.ibb.co/zxXwJDz/image.png"
+},
+{"isFeatured":true,
+"title":"Simple E-commerce Site",
+"details":"  Full funcional  e-commerce project. t will consist of almost every features an ecommerce website is supposed to pose. Example: inventory system , orders track , and <a href='https://wordpress.com/'> wordpress </a> powerfull backend. It has every possible features. ",
+"technologies": ["React","Wocommerce-api","Redux", "FireBase","Styled Components", "Firestore"],
+"githubLink": false, 
+"link": "http://pewds-shop.vercel.app",
+"img": "/e-com.png"
 }
 ,
 {"isFeatured":true,
