@@ -1,9 +1,14 @@
 
 [{"name":"JavaScript (ES6+)"},
+    {"name":"Typescript"},
+    
 {"name":"React.js"},
 {"name":"Express.js"},
 {"name":"Next.js"},
 {"name":"Node.js"},
+{"name":"Redux"},
+{"name":"MongoDb"},
+{"name":"Postgre"},
 {"name":"React Native"},
 {"name":"WordPress"},
 {"name":"Shopify"}
