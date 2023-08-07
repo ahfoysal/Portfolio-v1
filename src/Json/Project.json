@@ -1,12 +1,5 @@
 [
-    {"isFeatured":true,
-"title":"E-commerce Site With Next.js",
-"details":"Fully functional e-commerce project in Next.js with server-side rendering ",
-"technologies": ["Next","React","Wocommerce-api", "wordpress-rest-api"],
-"githubLink": false, 
-"link": "http://shop.pewds.vercel.app",
-"img": "https://i.ibb.co/wskJBCq/image.png"
-},
+  
 
 {"":true,
 "title":"Movie &  Anime Streaming Site ",
@@ -56,6 +49,14 @@
 "githubLink": false, 
 "link": "##",
 "img": "https://i.ibb.co/4gpHSSP/image.png"
+},
+  {"isFeatured":true,
+"title":"E-commerce Site With Next.js",
+"details":"Fully functional e-commerce project in Next.js with server-side rendering ",
+"technologies": ["Next","React","Wocommerce-api", "wordpress-rest-api"],
+"githubLink": false, 
+"link": "http://shop.pewds.vercel.app",
+"img": "https://i.ibb.co/wskJBCq/image.png"
 }
 ]
 
